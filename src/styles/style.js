@@ -51,8 +51,9 @@ const styles = StyleSheet.create({
       marginRight: 20,
       marginBottom: 11,
       height: 47,
-      backgroundColor: '#DEDEDE',
-      borderRadius: 10
+      backgroundColor: '#fff',
+      borderRadius: 7,
+      shadowColor: 'rgba(0, 0, 0, 0.2)',
   
     },
     rankTitle: {

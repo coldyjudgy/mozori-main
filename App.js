@@ -3,21 +3,18 @@ import {SafeAreaView, StyleSheet, View, Text, ScrollView, Image} from 'react-nat
 
 import styles from './src/styles/style'
 import RecipeRank from './src/components/RecipeRank'
+import ImageSlider from './src/components/ImageSlider'
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.appTitle}>썸마켓</Text>
+      <Text style={styles.appTitle}>MOZORI</Text>
  
         <ScrollView>
-            <Image source={require('./src/image/mustkit.jpg')} style={styles.ad}>
-            </Image>
+            <ImageSlider />
             <RecipeRank />
             
             <Text style={styles.title}>제철재료</Text>
-            <View style={styles.card}></View>
-
-            <Text style={styles.title}>인기 요리사</Text>
             <View style={styles.card}></View>
 
             <Text style={styles.title}>내맘대로</Text>
