@@ -11,8 +11,10 @@ export default class ImageSlider extends Component {
         //"https://source.unsplash.com/1024x768/?nature",
         //"https://source.unsplash.com/1024x768/?water",
         //"https://source.unsplash.com/1024x768/?girl",
-        "https://source.unsplash.com/1024x768/?tree",
+        //https://source.unsplash.com/1024x768/?tree",
         //require('../image/home.PNG'),
+        require('../image/home.jpg'),
+        require('../image/carrot.jpg'),
         require('../image/mustkit.jpg'),
       ]
     };
@@ -34,6 +36,7 @@ export default class ImageSlider extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1
+    flex: 1,
+    width: '100%'
   }
 });

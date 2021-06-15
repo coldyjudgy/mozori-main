@@ -11,19 +11,19 @@ const RecipeRank = () => {
         </View>
 
         <View style={styles.recipeRank}>
-        <Text style={styles.rankTitle}>01</Text>
+        <Text style={styles.rankTitle}>01    제육볶음</Text>
         </View>
         <View style={styles.recipeRank}>
-            <Text style={styles.rankTitle}>02</Text>
+            <Text style={styles.rankTitle}>02    낙지볶음</Text>
         </View>
         <View style={styles.recipeRank}>
-            <Text style={styles.rankTitle}>03</Text>
+            <Text style={styles.rankTitle}>03    단호박죽</Text>
         </View>
         <View style={styles.recipeRank}>
-            <Text style={styles.rankTitle}>04</Text>
+            <Text style={styles.rankTitle}>04    해물파전</Text>
         </View>
         <View style={styles.recipeRank}>
-            <Text style={styles.rankTitle}>05</Text>
+            <Text style={styles.rankTitle}>05    바지락 칼국수</Text>
         </View>
         </>
     );

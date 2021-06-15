@@ -6,13 +6,14 @@ const styles = StyleSheet.create({
       backgroundColor: '#fff'
     },
     appTitle: {
-      color: '#000',
-      fontSize: 19,
-      marginTop: 30,
-      marginBottom: 30,
-      fontWeight: '700',
-      textAlign: 'center',
-      backgroundColor: '#fff',
+      width: "100%",
+      height: "10%",
+      position: 'relative',
+      backgroundColor: 'orange',
+    },
+    veggie: {
+      width: "100%",
+      height: "18%",
     },
     card: {
       backgroundColor: '#dedede',
@@ -53,7 +54,9 @@ const styles = StyleSheet.create({
       height: 47,
       backgroundColor: '#fff',
       borderRadius: 7,
-      shadowColor: 'rgba(0, 0, 0, 0.2)',
+      shadowColor: '#000',
+      shadowOpacity: 0.2,
+      elevation: 2,
   
     },
     rankTitle: {
