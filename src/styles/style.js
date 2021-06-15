@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
       width: "100%",
       height: "10%",
       position: 'relative',
-      backgroundColor: 'orange',
     },
     veggie: {
       width: "100%",
@@ -64,7 +63,7 @@ const styles = StyleSheet.create({
       fontSize: 16,
       marginTop: 13,
       marginLeft: 13,
-      marginBottom: 15,
+      marginBottom: 14,
       fontWeight: '700'
     },
     element: {  
